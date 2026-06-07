@@ -16,7 +16,7 @@ function ExpenseList() {
         const loadExpenses = async () => {
             try {
                 const res = await axios.get(
-                    "http://localhost:5000/api/expenses"
+                    "https://expense-tracker-fs06.onrender.com/api/expenses"
                 );
                 setExpenses(res.data);
             } catch (error) {
@@ -32,11 +32,11 @@ function ExpenseList() {
     const handleDelete = async (id) => {
         try {
             await axios.delete(
-                `http://localhost:5000/api/expenses/${id}`
+                `https://expense-tracker-fs06.onrender.com/api/expenses/${id}`
             );
 
             const res = await axios.get(
-                "http://localhost:5000/api/expenses"
+                "https://expense-tracker-fs06.onrender.com/api/expenses"
             );
 
             setExpenses(res.data);
@@ -56,7 +56,7 @@ function ExpenseList() {
     const handleUpdate = async () => {
         try {
             await axios.put(
-                `http://localhost:5000/api/expenses/${selectedExpense.id}`,
+                `https://expense-tracker-fs06.onrender.com/api/expenses/${selectedExpense.id}`,
                 selectedExpense
             );
 
@@ -64,7 +64,7 @@ function ExpenseList() {
             setSelectedExpense(null);
 
             const res = await axios.get(
-                "http://localhost:5000/api/expenses"
+                "https://expense-tracker-fs06.onrender.com/api/expenses"
             );
 
             setExpenses(res.data);

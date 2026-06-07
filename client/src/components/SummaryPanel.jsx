@@ -10,7 +10,7 @@ function SummaryPanel() {
         const fetchSummary = async () => {
             try {
                 const res = await axios.get(
-                    "http://localhost:5000/api/expenses/summary"
+                    "https://expense-tracker-fs06.onrender.com/api/expenses/summary"
                 );
 
                 console.log("SUMMARY API RESPONSE:", res.data);

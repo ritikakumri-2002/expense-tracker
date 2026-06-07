@@ -13,7 +13,7 @@ function Chart() {
         const loadData = async () => {
             try {
                 const res = await axios.get(
-                    "http://localhost:5000/api/expenses/summary"
+                    "https://expense-tracker-fs06.onrender.com/api/expenses/summary"
                 );
 
                 const categoryTotals = res.data.categoryTotals;

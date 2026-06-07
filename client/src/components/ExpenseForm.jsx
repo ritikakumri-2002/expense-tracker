@@ -15,7 +15,7 @@ function ExpenseForm() {
     try {
 
         const response = await axios.post(
-            "http://localhost:5000/api/expenses",
+            "https://expense-tracker-fs06.onrender.com/api/expenses",
             {
                 amount: Number(amount),
                 category,

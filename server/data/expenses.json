@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1752500123456,
+    "amount": 800,
+    "note": "Burger"
+  },
+  {
+    "id": 1780652008288,
+    "amount": 500,
+    "category": "Food",
+    "date": "2024-06-01",
+    "note": "Pizza"
+  },
+  {
+    "id": 1780652173174,
+    "amount": 506,
+    "category": "Food",
+    "date": "2025-12-01",
+    "note": "Pizza"
+  },
+  {
+    "id": 1780652238920,
+    "amount": 500,
+    "category": "Food",
+    "date": "2025-12-01"
+  },
+  {
+    "id": 1780777984907,
+    "amount": 500,
+    "category": "Food",
+    "date": "2026-06-07",
+    "note": "pizza"
+  },
+  {
+    "id": 1780778178300,
+    "amount": "500",
+    "category": "Food",
+    "date": "2026-06-07",
+    "note": "pizza"
+  },
+  {
+    "id": 1780782419010,
+    "amount": 50,
+    "category": "Transport",
+    "date": "2026-06-07",
+    "note": "auto"
+  }
+]

@@ -28,6 +28,8 @@ function ExpenseForm() {
 
         alert("Expense Added!");
 
+        window.location.reload();
+
         setAmount("");
         setCategory("");
         setDate("");

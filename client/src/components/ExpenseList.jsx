@@ -111,7 +111,7 @@ function ExpenseList() {
 
         link.click();
     };
-
+    console.log("Expenses:", expenses);
     return (
         <div>
 
